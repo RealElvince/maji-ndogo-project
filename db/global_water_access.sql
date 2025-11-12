@@ -1,0 +1,19 @@
+CREATE TABLE `global_water_access` (
+   name VARCHAR(255) DEFAULT NULL,
+   region VARCHAR(255) DEFAULT NULL,
+   year INT DEFAULT NULL,
+   pop_n FLOAT DEFAULT NULL,
+   pop_u FLOAT DEFAULT NULL,
+  wat_bas_n FLOAT DEFAULT NULL,
+   wat_lim_n FLOAT DEFAULT NULL,
+   wat_unimp_n FLOAT DEFAULT NULL,
+   wat_sur_n FLOAT DEFAULT NULL,
+   wat_bas_r FLOAT DEFAULT NULL,
+   wat_lim_r FLOAT DEFAULT NULL,
+   wat_unimp_r FLOAT DEFAULT NULL,
+   wat_sur_r  FLOAT DEFAULT NULL,
+   wat_bas_u FLOAT DEFAULT NULL,
+   wat_lim_u FLOAT DEFAULT NULL,
+   wat_unimp_u FLOAT DEFAULT NULL,
+   wat_sur_u FLOAT DEFAULT NULL
+);
