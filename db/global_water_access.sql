@@ -1,4 +1,4 @@
-CREATE TABLE `global_water_access` (
+CREATE TABLE global_water_access (
    name VARCHAR(255) DEFAULT NULL,
    region VARCHAR(255) DEFAULT NULL,
    year INT DEFAULT NULL,
