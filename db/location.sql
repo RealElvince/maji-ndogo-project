@@ -5,4 +5,4 @@ CREATE TABLE `location` (
   `town_name` varchar(255) DEFAULT NULL,
   `location_type` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`location_id`)
-)
+);
