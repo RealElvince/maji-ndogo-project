@@ -13,4 +13,4 @@ CREATE TABLE `visits` (
   CONSTRAINT `visits_ibfk_1` FOREIGN KEY (`location_id`) REFERENCES `location` (`location_id`),
   CONSTRAINT `visits_ibfk_2` FOREIGN KEY (`source_id`) REFERENCES `water_source` (`source_id`),
   CONSTRAINT `visits_ibfk_3` FOREIGN KEY (`assigned_employee_id`) REFERENCES `employee` (`assigned_employee_id`)
-)
+);
