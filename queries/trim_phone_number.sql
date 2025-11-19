@@ -1,4 +1,5 @@
 SELECT
-	LENGTH(TRIM(phone_number))
+    phone_number,
+	LENGTH(TRIM(phone_number)) AS phone_number_length
 FROM
 	employee;
