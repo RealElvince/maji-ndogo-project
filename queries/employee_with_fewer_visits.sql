@@ -8,11 +8,11 @@ GROUP BY
 ORDER BY
 	number_of_visits ASC
 LIMIT 
-	3;
+	2;
     
 SELECT
 	employee_name
 FROM
 	employee
 WHERE 
-	assigned_employee_id = 20;
+	assigned_employee_id IN(20,22);
