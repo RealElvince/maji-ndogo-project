@@ -9,5 +9,5 @@ FROM
 GROUP BY 
 	employee_name
 HAVING 
-	COUNT(*) > 6
+	COUNT(employee_name) > 6
 ORDER BY mistake_count DESC;
