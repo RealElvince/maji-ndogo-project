@@ -24,4 +24,5 @@ ON
 WHERE
 	v.visit_count = 1
 AND
-	ar.true_water_source_score - wq.subjective_quality_score <> 0;
+	ar.true_water_source_score <> wq.subjective_quality_score;
+
