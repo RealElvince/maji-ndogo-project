@@ -1,6 +1,7 @@
 SELECT
 	ar.location_id AS location_id,
     v.record_id,
+    v.assigned_employee_id,
     ar.true_water_source_score AS auditor_score,
     wq.subjective_quality_score AS surveyor_score
 FROM
