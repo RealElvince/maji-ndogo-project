@@ -14,4 +14,9 @@ ON
 INNER JOIN 
 	water_quality wq
 ON
-	v.record_id = wq.record_id;
+	v.record_id = wq.record_id
+    
+WHERE
+	v.visit_count = 1
+AND
+	ar.true_water_source_score - wq.subjective_quality_score = 0;
