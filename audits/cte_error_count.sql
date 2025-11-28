@@ -8,8 +8,9 @@ GROUP BY
 	employee_name
 )
 
+    
 SELECT
-	*
+	AVG(number_of_mistakes) AS avg_number_of_mistake_per_employee
 FROM
 	error_count;
     
