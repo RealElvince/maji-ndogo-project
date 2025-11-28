@@ -18,3 +18,12 @@ SELECT
 	*
 FROM
 	Suspect_List;
+    
+    
+SELECT *
+FROM incorrect_records
+WHERE employee_name IN (
+    SELECT employee_name
+    FROM suspect_list
+)
+ORDER BY employee_name, location_id;
